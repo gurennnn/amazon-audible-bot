@@ -10,11 +10,16 @@ This project can be extended to include the summaries of books as well.
 
 In the data folder, we'll have a single csv file that contains all of the books' data.
 
-## Setup
+## Setup & Run
 
-Run the following command for installing the required dependencies:
+Run the following command for running the bot in the background:
 
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+python3 scripts/scraping.py
+```
+
+Alternatively, you can check the notebook file for running the bot step by step, and visualize it's actions.
 
 ## Tools & Libraries
 
