@@ -52,9 +52,9 @@ def get_price(priceLabelText):
     return float(re.search(price_regex, priceLabelText).group(1))
 
 # test
-print(get_authors('By: BTS, Myeongseok Kang, Anton Hur - translator, Slin Jung - translator, Clare Richards - translator'))
-print(get_authors('By: BTS, Myeongseok Kang'))
-print(get_authors('By: BTS'))
+# print(get_authors('By: BTS, Myeongseok Kang, Anton Hur - translator, Slin Jung - translator, Clare Richards - translator'))
+# print(get_authors('By: BTS, Myeongseok Kang'))
+# print(get_authors('By: BTS'))
 
 # print(get_length('Length: 11 hrs and 18 mins'))
 # print(get_length('Length: 4 hrs'))
